@@ -1,5 +1,5 @@
-<!<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -12,152 +12,260 @@
 
 <body>
 
-    <header>
+    <!-- Navigation -->
 
-        <img src="profile.jpeg"
-             alt="Ahmed Al Ameen"
-             class="profile-image">
+    <nav class="navbar">
 
-        <h1>Ahmed Al Ameen</h1>
+        <div class="logo">
+            Ahmed Al Ameen
+        </div>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+    </nav>
+
+
+    <!-- Hero Section -->
+
+    <header id="home">
+
+        <img
+            src="profile.jpeg"
+            alt="Ahmed Al Ameen"
+            class="profile-image"
+        >
+
+        <h1>Hi, I'm Ahmed Al Ameen</h1>
 
         <h2>AWS & DevOps Fresher</h2>
 
         <p>
-            AWS • Linux • Docker • Jenkins • Terraform • Ansible
+            B.Tech IT Graduate | Cloud & DevOps Enthusiast
         </p>
+
+        <p>
+            Building practical projects with AWS, Linux, Docker,
+            Jenkins, Terraform and Ansible.
+        </p>
+
+        <a
+            href="resume.pdf"
+            download
+            class="resume-button"
+        >
+            Download Resume
+        </a>
 
     </header>
 
 
-    <section>
+    <!-- About Section -->
+
+    <section id="about">
 
         <h2>About Me</h2>
 
         <p>
-            I am a B.Tech IT graduate interested in AWS and DevOps.
-            I am learning AWS, Linux, Docker, Jenkins, Terraform and Ansible.
+            I am a B.Tech IT graduate with an interest in Cloud Computing
+            and DevOps. I have hands-on experience with AWS, Linux, Docker,
+            Jenkins, Terraform and Ansible through practical projects.
+        </p>
+
+        <p>
+            I enjoy building and deploying cloud-based applications,
+            automating infrastructure and continuously improving my
+            technical skills through hands-on practice.
         </p>
 
     </section>
 
 
-    <section>
+    <!-- Skills Section -->
+
+    <section id="skills">
 
         <h2>My Skills</h2>
 
         <div class="skills">
 
-            <span>AWS</span>
-            <span>Linux</span>
-            <span>Docker</span>
-            <span>Jenkins</span>
-            <span>Terraform</span>
-            <span>Ansible</span>
-            <span>Git & GitHub</span>
-            <span>HTML</span>
+            <span>☁️ AWS</span>
+            <span>🐧 Linux</span>
+            <span>🐳 Docker</span>
+            <span>🔄 Jenkins</span>
+            <span>🏗️ Terraform</span>
+            <span>⚙️ Ansible</span>
+            <span>🔗 Git & GitHub</span>
+            <span>🌐 HTML</span>
+            <span>💻 Bash</span>
+            <span>🐍 Python Basics</span>
 
         </div>
 
     </section>
 
 
-    <section>
+    <!-- Projects Section -->
+
+    <section id="projects">
 
         <h2>My Projects</h2>
 
 
+        <!-- Terraform -->
+
         <div class="project">
 
-            <h3>1. Terraform AWS Project</h3>
+            <h3>☁️ Terraform AWS Project</h3>
 
             <p>
-                Provisioning AWS infrastructure using Terraform
-                with S3 and EC2.
+                Provisioned AWS infrastructure using Terraform,
+                including S3 and EC2 resources.
             </p>
 
-            <a href="https://github.com/ahmedalameen-cloud/Terraform-s3-project"
-               target="_blank">
+            <p>
+                <strong>Technologies:</strong>
+                Terraform • AWS • S3 • EC2
+            </p>
+
+            <a
+                href="https://github.com/ahmedalameen-cloud/Terraform-s3-project"
+                target="_blank"
+            >
                 View on GitHub
             </a>
 
         </div>
 
 
+        <!-- AWS Static Website -->
+
         <div class="project">
 
-            <h3>2. AWS Static Website</h3>
+            <h3>🌐 AWS Static Website</h3>
 
             <p>
-                Static website hosted on Amazon S3 using AWS.
+                Created and hosted a static website on Amazon S3
+                using HTML.
             </p>
 
-            <a href="https://github.com/ahmedalameen-cloud/ahmed-aws-webpage"
-               target="_blank">
+            <p>
+                <strong>Technologies:</strong>
+                AWS S3 • HTML
+            </p>
+
+            <a
+                href="https://github.com/ahmedalameen-cloud/ahmed-aws-webpage"
+                target="_blank"
+            >
                 View on GitHub
             </a>
 
         </div>
 
 
+        <!-- Docker -->
+
         <div class="project">
 
-            <h3>3. Docker Nginx Web Server</h3>
+            <h3>🐳 Docker Nginx Web Server</h3>
 
             <p>
-                Deploying an Nginx web server using Docker containers.
+                Deployed an Nginx web server using Docker containers
+                for a simple web application.
             </p>
 
-            <a href="https://github.com/ahmedalameen-cloud/docker-nginx-webserver"
-               target="_blank">
+            <p>
+                <strong>Technologies:</strong>
+                Docker • Nginx • HTML
+            </p>
+
+            <a
+                href="https://github.com/ahmedalameen-cloud/docker-nginx-webserver"
+                target="_blank"
+            >
                 View on GitHub
             </a>
 
         </div>
 
 
+        <!-- Ansible -->
+
         <div class="project">
 
-            <h3>4. Ansible Nginx Deployment</h3>
+            <h3>⚙️ Ansible Nginx Deployment</h3>
 
             <p>
                 Automated Nginx deployment on AWS EC2 using Ansible.
             </p>
 
-            <a href="https://github.com/ahmedalameen-cloud/ansible-nginx-deployment"
-               target="_blank">
+            <p>
+                <strong>Technologies:</strong>
+                Ansible • AWS EC2 • Nginx
+            </p>
+
+            <a
+                href="https://github.com/ahmedalameen-cloud/ansible-nginx-deployment"
+                target="_blank"
+            >
                 View on GitHub
             </a>
 
         </div>
 
 
+        <!-- Jenkins -->
+
         <div class="project">
 
-            <h3>5. Jenkins Docker Project</h3>
+            <h3>🔄 Jenkins Docker CI/CD</h3>
 
             <p>
-                CI/CD pipeline using Jenkins, Docker and Nginx
-                to build and deploy a static web application.
+                Created a basic CI/CD pipeline using Jenkins,
+                GitHub, Docker and Nginx.
             </p>
 
-            <a href="https://github.com/ahmedalameen-cloud/jenkins-docker-project"
-               target="_blank">
+            <p>
+                <strong>Technologies:</strong>
+                Jenkins • GitHub • Docker • Nginx
+            </p>
+
+            <a
+                href="https://github.com/ahmedalameen-cloud/jenkins-docker-project"
+                target="_blank"
+            >
                 View on GitHub
             </a>
 
         </div>
 
 
+        <!-- Portfolio -->
+
         <div class="project">
 
-            <h3>6. AWS & DevOps Portfolio</h3>
+            <h3>💻 AWS & DevOps Portfolio</h3>
 
             <p>
-                Personal AWS & DevOps portfolio project.
+                Designed and developed a personal portfolio website
+                to showcase my AWS and DevOps projects and skills.
             </p>
 
-            <a href="https://github.com/ahmedalameen-cloud/ahmedalameen-cloud"
-               target="_blank">
+            <p>
+                <strong>Technologies:</strong>
+                HTML • CSS • GitHub Pages
+            </p>
+
+            <a
+                href="https://github.com/ahmedalameen-cloud/ahmedalameen-cloud"
+                target="_blank"
+            >
                 View on GitHub
             </a>
 
@@ -166,35 +274,43 @@
     </section>
 
 
-    <section>
+    <!-- Contact Section -->
+
+    <section id="contact">
 
         <h2>Contact Me</h2>
 
         <p>
-            Email:
+            📧 Email:
             <a href="mailto:ameenameen61961@gmail.com">
                 ameenameen61961@gmail.com
             </a>
         </p>
 
         <p>
-            GitHub:
-            <a href="https://github.com/ahmedalameen-cloud"
-               target="_blank">
+            🔗 GitHub:
+            <a
+                href="https://github.com/ahmedalameen-cloud"
+                target="_blank"
+            >
                 My GitHub
             </a>
         </p>
 
         <p>
-            LinkedIn:
-            <a href="https://www.linkedin.com/in/ahmed-al-ameen-s-981515369"
-               target="_blank">
+            💼 LinkedIn:
+            <a
+                href="https://www.linkedin.com/in/ahmed-al-ameen-s-981515369"
+                target="_blank"
+            >
                 My LinkedIn
             </a>
         </p>
 
     </section>
 
+
+    <!-- Footer -->
 
     <footer>
 
